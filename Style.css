@@ -1,0 +1,112 @@
+body {
+  background-color: #f6f0cb;
+  font-family: "Mandali", sans-serif;
+  color: #966102;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(150,97,2)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/*------------NAVBAR------------------------*/
+
+li {
+  margin: 1em 10vh 1em;
+}
+
+nav {
+  background-color: #8dbf1b !important;
+}
+
+a {
+  text-decoration: none;
+  color: #966102 !important;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+h2 {
+  text-align: center;
+}
+p {
+  color: #000;
+}
+
+button {
+  background-color: #966102;
+  border-radius: 10px;
+  width: 35%;
+}
+
+/*--------------MAIN----------------------*/
+
+#bg-image {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url(/images/Photos/7-carpatesblanches.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+}
+
+.logo {
+  max-width: 50vw;
+  height: 20vh;
+  padding-top: 20px;
+}
+
+.imgacceuil {
+  height: 50vh;
+  width: 100%;
+}
+
+iframe {
+  width: 30vw;
+  height: 50vh;
+}
+
+.imgcarousel {
+  height: 70vh;
+}
+
+.imgproduits {
+  height: 50vh;
+  width: 40vw;
+}
+
+/*-------------FOOTER-----------------------*/
+
+footer {
+  background-color: #8dbf1b !important;
+}
+
+.logofooter {
+  max-width: 8vh;
+  min-height: 8vh;
+  margin-bottom: 5px;
+}
+
+/*-------------MEDIA QUERRIES---------------------*/
+
+@media screen and (max-width: 992px) {
+  iframe {
+    margin-top: 15px;
+    width: 90vw;
+  }
+
+  .imgproduits {
+    width: 100%;
+    height: 100%;
+  }
+
+  .imgcarousel {
+    height: 50vh;
+  }
+}
